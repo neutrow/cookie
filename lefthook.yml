@@ -1,0 +1,8 @@
+# https://lefthook.dev/configuration/
+
+pre-commit:
+  parallel: true
+  commands:
+    format:
+      run: pnpm format
+      stage_fixed: true
